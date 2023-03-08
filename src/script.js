@@ -1,10 +1,12 @@
  let getTime = () => {
         let d = new Date();
-       /*  let h=d.getHours();
+       /*  
+       let h=d.getHours();
         let amPm=h>=12?"PM":"AM";
         let m=d.getMinutes();
         let s=d.getSeconds(); 
-        return ` ${h} : ${m} : ${s}: ${amPm}`;*/
+        return ` ${h} : ${m} : ${s}: ${amPm}`;
+        */
         return d.toLocaleTimeString();
       };
       console.log(getTime());
